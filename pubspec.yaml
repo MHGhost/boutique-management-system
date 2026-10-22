@@ -1,0 +1,45 @@
+name: inventoryapp
+description: "Offline-first point of sale and inventory management for SR Branded Boutique."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  crypto: ^3.0.7
+  flutter_riverpod: ^3.4.3
+  riverpod_annotation: ^4.0.7
+  go_router: ^18.0.1
+  sqlite3_flutter_libs: ^0.6.0+eol
+  path: ^1.9.1
+  freezed: ^4.0.1
+  riverpod_generator: ^4.0.9
+  json_serializable: ^6.14.1
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+  drift: ^2.35.0
+  drift_flutter: ^0.3.1
+  path_provider: ^2.1.6
+  pdf: ^3.13.1
+  printing: ^5.15.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.35.0
+  build_runner: ^2.16.1
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/company_logo.png
